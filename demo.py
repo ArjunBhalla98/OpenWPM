@@ -10,9 +10,11 @@ from openwpm.task_manager import TaskManager
 # The list of sites that we wish to crawl
 NUM_BROWSERS = 1
 sites = [
-    "http://www.example.com",
-    "http://www.princeton.edu",
-    "http://citp.princeton.edu/",
+    "https://www.nytimes.com/",
+    "https://www.elpais.com",
+    "https://www.cnn.com/",
+    "https://www.bbc.co.uk/",
+    "https://www.washingtonpost.com/",
 ]
 
 # Loads the default ManagerParams
